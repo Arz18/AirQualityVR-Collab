@@ -1,0 +1,18 @@
+{
+  "regions": [
+    {
+      "id": "san_juan",
+      "nombre": "San Juan",
+      "aqi": 42,
+      "categoria": "Bueno",
+      "descripcion": "Partículas finas y ozono en niveles bajos típicos."
+    },
+    {
+      "id": "ponce",
+      "nombre": "Ponce",
+      "aqi": 63,
+      "categoria": "Moderado",
+      "descripcion": "Concentraciones moderadas de PM2.5. Personas sensibles pueden sentir molestias."
+    }
+  ]
+}
