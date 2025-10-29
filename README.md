@@ -1,1 +1,3 @@
-# unity-AirQualityVR
+# IMPORTANTE: 
+Es posible que cuando clones el repo y lo abras en unity se vea una escena rara...
+Ve al folder de Assets en el tab de project de Unity y abre la escena MainScene, ahi esta el proyecto. 
