@@ -4753,7 +4753,7 @@ GameObject:
   - component: {fileID: 1686610180}
   - component: {fileID: 1686610179}
   m_Layer: 0
-  m_Name: Marco
+  m_Name: Marco-polo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
