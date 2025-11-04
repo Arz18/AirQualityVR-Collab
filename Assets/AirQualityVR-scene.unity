@@ -1102,9 +1102,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: de4ff97ac9c55da46bccfd22374c93d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 865173268}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4ff97ac9c55da46bccfd22374c93d8, type: 3}
+--- !u!4 &334982233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: de4ff97ac9c55da46bccfd22374c93d8, type: 3}
+  m_PrefabInstance: {fileID: 334982232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &412510131
 GameObject:
   m_ObjectHideFlags: 0
@@ -7022,12 +7030,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865173265}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -8.12, y: 3.81, z: -24.36}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.3928941, y: -0.5879067, z: -0.5879067, w: 0.3928941}
+  m_LocalPosition: {x: -9.071525, y: 7.22, z: -4.2700853}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 334982233}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &876656115
 PrefabInstance:
@@ -10141,6 +10149,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7511558181221131132, guid: 908f0ad69ca0f9c4795c566237726dbd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 919132149155446097, guid: 908f0ad69ca0f9c4795c566237726dbd, type: 3}
+      propertyPath: m_Name
+      value: orejaDePalo (1)
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad5641c94636f024b9633315fe652866, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.2912292
@@ -10184,14 +10200,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad5641c94636f024b9633315fe652866, type: 3}
       propertyPath: 
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 908f0ad69ca0f9c4795c566237726dbd, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 919132149155446097, guid: 908f0ad69ca0f9c4795c566237726dbd, type: 3}
-      propertyPath: m_Name
-      value: orejaDePalo (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12355,4 +12363,3 @@ SceneRoots:
   - {fileID: 1633987580}
   - {fileID: 884726108}
   - {fileID: 1536927804}
-  - {fileID: 865173268}
